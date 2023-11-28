@@ -25,11 +25,12 @@ body {
 }
 /* Books container Style */
 .books {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #eee;
   box-sizing: border-box;
   width: 100%;
   min-height: 85vh;
-  display: flex;
   gap: 25px;
   padding: 1%;
 }
@@ -40,7 +41,7 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: white;
-  width: 300px;
+  width: 292px;
   min-height: 330px;
   max-height: 360px;
   justify-content: space-between;
